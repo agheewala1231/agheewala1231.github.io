@@ -1,0 +1,87 @@
+body{
+  background-image: url("kobe1.jpg");
+}
+
+h1{
+  color: purple;
+}
+
+p{
+  color: white;
+  font-family: sans-serif;
+}
+
+h3{
+  color: white;
+}
+
+ol{
+  color: white;
+}
+
+.forms {
+  position:absolute;
+  margin-top: 20px;
+  margin-right: 300px;
+
+}
+#label1 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+#label2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+#comment {
+  color: white;
+  margin-bottom: 10px
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+a:visited{
+  color: yellow;
+}
+
+
+footer{
+  position:absolute;
+  text-align: center;
+  color: white;
+  right: 0;
+  bottom: 0;
+}
+
+#submit{
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+
+  }
+}

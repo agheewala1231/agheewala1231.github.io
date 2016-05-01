@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Farewell Kobe</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body background= "kobe1.jpg">
-    <H1 style="color:white;">Kobe Bryant's Farewell</h1>
-      <p style="color:white;">
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+
+    </nav>
+
+    <H1>Kobe Bryant's Farewell</h1>
+      <p>
         Kobe Bryant was on fire for his final NBA game, giving the Los Angeles
         Lakers one more amazing show of offence to close out his 20-year career.
         Scoring 60 points out off 50 shots Bryant brought his playing career to
@@ -16,49 +28,49 @@
         seasons. He retires as the NBA's third-highest all-time scorer and won
         five championships.
       </p>
+      <H3>NBA all time scorers</H3>
 
-      <H3 style="color:white;">NBA all time scorers</H3>
-
-      <ol style="color:white;">
-
-        <li>Kareem Abdul- Jabbar</li>
-        <li>Karl Malone</li>
-        <li>Kobe Byrant</li>
-        <li>Michael Jordan</li>
-        <li>Wilt Chamberlain</li>
-
+      <ol>
+        <li>Kareem Abdul-Jabbar</li><br>
+        <li>Karl Malone</li><br>
+        <li>Kobe Byrant</li><br>
+        <li>Michael Jordan</li><br>
+        <li>Wilt Chamberlain</li><br>
       </ol>
 
-      <a style="color:yellow;" href="http://www.kobebryant.com/kobe-bryant-merchandise.php">Learn more on Kobe Bryant</a>
+  <a style="color:yellow;" href="http://www.kobebryant.com/kobe-bryant-merchandise.php">Learn more on Kobe Bryant</a>
       <!--
        Looking at the source I do recognize most of html elements but I still
        have a long way to go. I like how my is layed out on the page so far and
        from what I learned so far. This page does have a lot more details and it's
        pretty fancy.
      -->
-      <form name= "Kobe Bryant's Last Game"action="thank_you.html" method="post">
+
+     <div class="forms">
+      <form name= "Kobe Bryant's Last Game" action= "thank_you.html" method="post">
       <fieldset>
-        <div>
-          <label style="color:white;">Full Name</label>
+
+        <div id="label1">
+          <label>Full Name</label>
           <input type="text" name="fullname">
         </div>
 
-        <div>
-          <label style="color:white;">Email</label>
+        <div id="label2">
+          <label>Email</label>
           <input type="text" name="email">
         </div>
 
-        <div>
-          <fieldset>
-            <div>
-              <label style="color:white;"> Say your farewell to Kobe Bryant aka Black Mamba</label><br>
-            <textarea rows="8" cols="40"></textarea>
-
-            </div>
-          </fieldset>
-          <button>Submit</button>
-
+        <div id="comment">
+          <label> Say your farewell to Kobe Bryant aka Black Mamba</label><br>
+          <textarea rows="8" cols="40"></textarea>
         </div>
+
+      </fieldset>
+          <button id="submit">Submit</button>
+      </form>
+    </div>
+
+      <footer>Copyright by Anish Gheewala</footer>
 
     </body>
 </html>
